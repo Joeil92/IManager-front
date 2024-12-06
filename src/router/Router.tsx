@@ -5,6 +5,7 @@ const router = createBrowserRouter([
     {
         path: '/login',
         element: <Login />,
+        loader: () => document.title = "IManager - Se connecter"
     }
 ]);
 

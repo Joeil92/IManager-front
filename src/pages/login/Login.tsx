@@ -1,7 +1,7 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/Card";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/shared/components/ui/Card";
 import { LoginForm } from "./shared";
 import { Scissors } from "lucide-react";
-import { Typography } from "@/components/ui/Typography";
+import { Typography } from "@/shared/components/ui/Typography";
 
 export function Login() {
     return (

@@ -1,7 +1,7 @@
-import { Button } from "@/components/ui/Button";
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/Form";
-import { Input } from "@/components/ui/Input";
-import { Spinner } from "@/components/ui/Spinner";
+import { Button } from "@/shared/components/ui/Button";
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/shared/components/ui/Form";
+import { Input } from "@/shared/components/ui/Input";
+import { Spinner } from "@/shared/components/ui/Spinner";
 import { loginSchema } from "@/pages/login/shared/forms/LoginForm/schema";
 import { createUser } from "@/resources/api/user/user";
 import { HttpErrorResponse } from "@/resources/api/utils/types";
